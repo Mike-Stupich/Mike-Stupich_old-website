@@ -14,7 +14,7 @@ app.config(['$routeProvider', function ($routeProvider) {
     .when("/", {templateUrl: "partials/home.html", controller: "PageCtrl"})
     // Pages
     .when("/about", {templateUrl: "partials/about.html", controller: "PageCtrl"})
-    .when("/resume", {templateUrl: "partials/resume.html", controller: "PageCtrl"})
+    .when("/resume", {templateUrl: "partials/resume.html", controller: "ResumeCtrl"})
     .when("/languages", {templateUrl: "partials/languages.html", controller: "PageCtrl"})
     // else 404
     .otherwise("/404", {templateUrl: "partials/404.html", controller: "PageCtrl"});
@@ -34,4 +34,8 @@ app.controller('PageCtrl', function (/* $scope, $location, $http */) {
   $('.tooltip-social').tooltip({
     selector: "a[data-toggle=tooltip]"
   })
+});
+
+app.controller('ResumeCtrl', function($scope){
+
 });
