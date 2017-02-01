@@ -24,9 +24,6 @@ app.config(['$routeProvider', function ($routeProvider) {
  */
 app.controller('PageCtrl', function ($scope) {
   // Activates the Carousel
-  $('.carousel').carousel({
-    interval: 5000
-  });
 });
 
 app.controller('ResumeCtrl', function($scope){
