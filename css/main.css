@@ -14,9 +14,47 @@ ul{
   font-size: 20px;
 
 }
+p{
+  margin:0;
+}
+/* Resume Partial */
+.ul-res{
+  font-size: 12px;
+}
 
+.h3-title{
+  font-weight: bold;
+  font-size: 16px;
+}
 
+.h4-subtitle{
+  font-weight: bold;
+  font-size: 14px;
+}
 
+.h4-title{
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.p-res-pers{
+  text-align: center;
+
+}
+
+.brdr-btm{
+  border-bottom: 1px solid black;
+}
+
+.brdr-lft{
+  border-left:1px solid black;
+  border-top: 1px solid black;
+}
+
+.brdr-rgt{
+  border-top: 1px solid black;
+}
 .a-download{
 
 }
@@ -35,14 +73,14 @@ ul{
 
 }
 .h2-languages-subtitle{
-  font-size: 40px;
+  font-size: 22px;
   font-family: 'Open Sans Condensed', sans-serif;
-
+  margin-left: 10%;
 }
 
 .span-prglang{
   font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 28px;
+  font-size: 20px;
 
 }
 
@@ -104,10 +142,17 @@ ul{
   width: 100%;
   float:right;
 }
+
+
+
 .img-left-portrait{
   align:left;
   height: 200px;
   float:left;
+}
+
+.btn-ctr{
+  text-align: center;
 }
 
 .btn-center{
