@@ -1,4 +1,4 @@
-#My Personal Website
+# Personal Website
 
 This is my personal website. It includes my resume and a short summary about myself.
 
