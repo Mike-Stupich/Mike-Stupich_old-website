@@ -15,7 +15,7 @@ app.config(['$routeProvider', function ($routeProvider) {
     // Pages
     .when("/about", {templateUrl: "partials/about.html", controller: "PageCtrl"})
     .when("/resume", {templateUrl: "partials/resume.html", controller: "ResumeCtrl"})
-    .when("/languages", {templateUrl: "partials/languages.html", controller: "PageCtrl"})
+    //.when("/languages", {templateUrl: "partials/languages.html", controller: "PageCtrl"}) //This page looks really bad...
     // else 404
     .otherwise("/404", {templateUrl: "partials/404.html", controller: "PageCtrl"});
 }]);
